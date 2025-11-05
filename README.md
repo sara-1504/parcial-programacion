@@ -1,1 +1,3 @@
 # parcial-programacion
+
+Commit inicial
