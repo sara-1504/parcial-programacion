@@ -3,7 +3,7 @@
 // PROGRAMA: Sistema de gestión de biblioteca
 // ASIGNATURA: Programación Orientada a Objetos
 // OBJETIVO: Gestionar préstamos, devoluciones y multas de libros
-// AUTORA: [Sara Ximena Delgado Aguirre, Andres Alfonso Carlos Gaviria]
+// AUTORA: Sara Ximena Delgado Aguirre, Andres Alfonso Carlos Gaviria
 // -------------------------------------------------------------
 
 import java.util.ArrayList;
@@ -50,7 +50,7 @@ class MaterialBibliografico {
 }
 
 // -------------------------------------------------------------
-// CLASE DERIVADA: Libro
+// CLASE HIJA: Libro
 // Hereda de MaterialBibliografico y agrega más atributos
 // -------------------------------------------------------------
 class Libro extends MaterialBibliografico {
@@ -228,4 +228,5 @@ public class BibliotecaApp {
 
         } while (opcion != 5);
     }
+
 }
